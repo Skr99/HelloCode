@@ -1,0 +1,43 @@
+@media (min-width: 992px) {
+    .navbar .navbar-brand{
+        margin-left: 5rem;
+    }
+
+    .navbar .navbar-collapse .navbar-nav{
+        margin-left: 10rem;
+    }
+
+    .navbar .navbar-collapse .navbar-nav .nav-item .nav-link{
+        margin-left: 0.8rem;
+    }
+
+    .navbar .navbar-collapse .topButton{
+        margin-left: 0.8rem;
+    }
+
+    .navbar .navbar-collapse .topButton .btn{
+        margin-left: 0.8rem;
+    }
+}
+
+@media (min-width: 1261px) {
+    .navbar .navbar-brand{
+        margin-left: 5rem;
+    }
+
+    .navbar .navbar-collapse .navbar-nav{
+        margin-left: 25rem;
+    }
+
+    .navbar .navbar-collapse .navbar-nav .nav-item .nav-link{
+        margin-left: 1.5rem;
+    }
+
+    .navbar .navbar-collapse .topButton{
+        margin-left: 2rem;
+    }
+
+    .navbar .navbar-collapse .topButton .btn{
+        margin-left: 1.5rem;
+    }
+}
