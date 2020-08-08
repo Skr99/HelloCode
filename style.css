@@ -1,3 +1,16 @@
+
+#grad {
+    background-image: linear-gradient(-90deg, #89f7fe, #66a6ff);
+}
+
+.gr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+}
+
 @media (min-width: 992px) {
     .navbar .navbar-brand{
         margin-left: 5rem;

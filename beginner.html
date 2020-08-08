@@ -13,7 +13,7 @@
     <!-- Custom CSS styleSheet -->
     <link rel="stylesheet" href="style.css">
 
-    <title>Bootstrap</title>
+    <title>Hello Code</title>
 </head>
 
 <body>
@@ -27,14 +27,14 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="about.html">About Us</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="topic.html" id="navbarDropdown" role="button"
+                    <a class="nav-link dropdown-toggle active" href="topic.html" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Topics
                     </a>
@@ -159,6 +159,31 @@
     </div>
     <!--Top Slider End-->
 
+    <!-- Onload Modal Start -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title text-primary">Join Us!</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body text-justify">
+                    <p>More Content and course material are comingn soon. 
+                        Please join this journey with us if you want to share your knowledge with the young generation.
+                        <br><br>
+                        Email:- harsh4282@gmail.com
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-danger mx-auto" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Onload Modal end -->
+
     <!-- Main Content Start -->
     <div class="container my-4">
         <div class="row">
@@ -179,59 +204,41 @@
                     by switch off and switch on and the combination of these singals are converted into human
                     understandable format language.
                     <br><br>
-                <h5>Let's jump into code section</h5>
+                <h4 class="text-success">Let's jump into code section</h4>
+                <p>For absolute beginner, I personally recommend you to with Python programming language because it is
+                    very easy to
+                    learn and understand.</p>
                 </p>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-md-6">
-                <div class="card text-white bg-dark mb-3">
-                    <div class="card-header">Mathematics Programs</div>
-                    <div class="card-body">
-                        <h5 class="card-title text-warning">Dark card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                    </div>
-                </div>
-            </div>
+            <div class="col-12">
+                <p>Before deep dive into the coding, we need to setup the environment on our systems and
+                    for this we need to download the python setup file and install it in our Operating System.
+                    <br>To download Python for your system, click on this <a href="https://www.python.org/downloads/" target=" ">link.</a>
+                    <br><br>You will be redirected to python official page and it looks like something which is shown below in image snippet.
+                    Click on download button which is highlighted using red color box.
+                   
+                    <div><img src="/images/pSetup/p1.JPG" alt="" class="img-fluid my-4"></div>
+                    <br><br>
+                    After downloading complete, run the setup and you will see screen as shown below.
+                    <br><strong class="text-danger">Important</strong> Please check the box which is highlighted in image before click on Install Now
+                    button. It will add path to your system automatically. 
+                    <div><img src="/images/pSetup/p2.JPG" alt="" class="img-fluid my-4"></div>
 
-            <div class="col-md-6">
-                <div class="card text-white bg-dark mb-3">
-                    <div class="card-header">Mathematics Programs</div>
-                    <div class="card-body">
-                        <h5 class="card-title text-warning">Dark card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                    </div>
-                </div>
+                    <br><br>
+                    After installation complete, run <strong>Python --version</strong> in your command prompt.
+                    <div><img src="/images//pSetup/p3.JPG" alt="" class="img-fluid my-4"></div>
+                    <br><br>
+                    If it shows any python version then python successfully installed on your system and if you still face any issues while installation.
+                    <br>Refer to this <a href="https://www.youtube.com/watch?v=PQi-kvzVRy8&t=11s" target=" ">link.</a> 
+                    <br><strong>Note: </strong>
+                    In video downloading procedure is lengthy, you can directly download by click on download button. Refer this video from <strong>00:52 to 02:35.</strong> duration.
+                    <br>After this, installation of different libraries cover which we will see in Intermediate level. For now, Good luck you are ready to code on your system.
+                </p>
             </div>
-
-            <div class="col-md-6">
-                <div class="card text-dark bg-light mb-3">
-                    <div class="card-header">Mathematics Programs</div>
-                    <div class="card-body">
-                        <h5 class="card-title">Dark card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-6">
-                <div class="card text-dark bg-light mb-3">
-                    <div class="card-header">Mathematics Programs</div>
-                    <div class="card-body">
-                        <h5 class="card-title">Dark card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                    </div>
-                </div>
-            </div>
+            
         </div>
     </div>
     </div>
